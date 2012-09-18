@@ -14,7 +14,7 @@ $ rhc app create -a jbw2012 -t jbosseap-6.0 -g medium -s
 Add this upstream openshift-jbwkeynote-2012 repo
 
 $ cd editor
-$ git remote add upstream -m master git://github.com/eschabell/openshift-jdwkeynote-2012.git
+$ git remote add upstream -m master git://github.com/eschabell/openshift-jbw2012.git
 $ git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream.
