@@ -9,17 +9,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application that scales and is of medium gear size.
 
-$ rhc app create -a jbw2012 -t jbosseap-6.0 -g medium -s
-
-Add this upstream openshift-jbwkeynote-2012 repo
-
-$ cd editor
-$ git remote add upstream -m master git://github.com/eschabell/openshift-jbw2012.git
-$ git pull -s recursive -X theirs upstream master
-
-Then push the repo upstream.
-
-$ git push
+$ rhc app create -a jbw2012 -t jbosseap-6.0 -g medium -s --from-code git://github.com/eschabell/openshift-jbw2012.git
 
 We also need to push some of the configuration files for drools-guvnor. To do this you need to know the UUID of your machine, you
 can find this with:
