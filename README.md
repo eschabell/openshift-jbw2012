@@ -1,3 +1,6 @@
+Update: June 2018 mnoved to [Gitlab}(https://gitlab.com/eschabell/openshift-jbw2012)
+
+
 JBoss Keynote Demo from JBossWorld 2012 Quickstart Guide
 ========================================================
 
